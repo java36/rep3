@@ -17,8 +17,8 @@ public class Toolbar extends JPanel implements ActionListener
 	{
 		setLayout(new FlowLayout(FlowLayout.LEFT));
 		//branch2nnn
-		helloBtn = new JButton("Hello");
-		goodbyeBtn = new JButton("Goodbye");
+		helloBtn = new JButton("H");
+		goodbyeBtn = new JButton("G");
 		
 		helloBtn.addActionListener(this);
 		goodbyeBtn.addActionListener(this);
